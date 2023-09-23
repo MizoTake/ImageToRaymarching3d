@@ -1,0 +1,894 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.29f1 (204d6dc9ae1c) revision 2116973'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ja' Physical Memory: 31864 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProject/ImageToRaymarching3d
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+6694
+Successfully changed project path to: D:/UnityProject/ImageToRaymarching3d
+D:/UnityProject/ImageToRaymarching3d
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9200] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 980163069 [EditorId] 980163069 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UALPSK5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9200] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 980163069 [EditorId] 980163069 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UALPSK5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 63.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/ImageToRaymarching3d/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006035 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (390ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (277ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (61ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002357 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4717 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5173.
+Memory consumption went from 190.3 MB to 189.6 MB.
+Total: 3.700000 ms (FindLiveObjects: 0.557900 ms CreateObjectMapping: 0.116100 ms MarkObjects: 2.687600 ms  DeleteObjects: 0.336700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 556468.223137 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader
+  artifactKey: Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader using Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad28a19212514cca9035c0e89fc7c523') in 0.025801 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002602 seconds.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <d61464951b0243f18092630834a7bf18>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <1e8c82ffe64a4e1d8e997fa7e5933f70>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <d61464951b0243f18092630834a7bf18>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <1e8c82ffe64a4e1d8e997fa7e5933f70>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <d61464951b0243f18092630834a7bf18>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <1e8c82ffe64a4e1d8e997fa7e5933f70>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <d61464951b0243f18092630834a7bf18>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <1e8c82ffe64a4e1d8e997fa7e5933f70>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <d61464951b0243f18092630834a7bf18>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <1e8c82ffe64a4e1d8e997fa7e5933f70>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <d61464951b0243f18092630834a7bf18>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <d61464951b0243f18092630834a7bf18>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <1e8c82ffe64a4e1d8e997fa7e5933f70>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Domain Reload Profiling:
+	ReloadAssembly (665ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (497ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2913 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 587 unused Assets / (1.7 MB). Loaded Objects now: 4605.
+Memory consumption went from 141.2 MB to 139.5 MB.
+Total: 2.887300 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.105100 ms MarkObjects: 1.994800 ms  DeleteObjects: 0.444800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (22.0 KB). Loaded Objects now: 4605.
+Memory consumption went from 69.7 MB to 69.7 MB.
+Total: 3.381400 ms (FindLiveObjects: 0.659500 ms CreateObjectMapping: 0.175800 ms MarkObjects: 2.527600 ms  DeleteObjects: 0.018200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004260 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Domain Reload Profiling:
+	ReloadAssembly (765ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:464 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:622 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:1143 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 464)
+
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4592 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5133.
+Memory consumption went from 181.2 MB to 180.5 MB.
+Total: 4.011600 ms (FindLiveObjects: 0.616600 ms CreateObjectMapping: 0.243700 ms MarkObjects: 2.759500 ms  DeleteObjects: 0.391100 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:464 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:622 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:1143 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 464)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:464 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:622 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:1143 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 464)
+
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5133.
+Memory consumption went from 89.9 MB to 89.2 MB.
+Total: 3.650200 ms (FindLiveObjects: 0.832900 ms CreateObjectMapping: 0.134700 ms MarkObjects: 2.347100 ms  DeleteObjects: 0.335100 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:464 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:622 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\UnityProject\ImageToRaymarching3d\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12\Runtime\Data\UniversalRenderPipelineAsset.cs:1143 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 464)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1063.469471 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader
+  artifactKey: Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader using Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db2298d474c261c1afd37c520cbc5b5') in 0.017786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.149527 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader
+  artifactKey: Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader using Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ab20bceb191c44b0ecf26acf4aeb90') in 0.001533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.469768 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader
+  artifactKey: Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader using Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfedcf39a035787e390b688ff809b81') in 0.001726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.593797 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader
+  artifactKey: Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader using Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffb2842907faf27cce4ad165ce426a8') in 0.001741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.649862 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader
+  artifactKey: Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader using Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf70cc4ea6bc5f1abefad2c14c504b') in 0.001740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267.958355 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/NewUnlitShader.shader
+  artifactKey: Guid(907bfe72cc4a0424088bcf270d6e144a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/NewUnlitShader.shader using Guid(907bfe72cc4a0424088bcf270d6e144a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8f0a3c8d955cfdabdbde4e2a366d00') in 0.006834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 357.470817 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/fune_houseboat.png
+  artifactKey: Guid(b6e84859ef278904e90f5065350b223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/fune_houseboat.png using Guid(b6e84859ef278904e90f5065350b223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e91270eaa91f6a83f231a95973e4f31') in 0.044341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.912113 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/fune_houseboat.png
+  artifactKey: Guid(b6e84859ef278904e90f5065350b223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/fune_houseboat.png using Guid(b6e84859ef278904e90f5065350b223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8843297679f58de4118af1608bd759') in 0.001973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.343376 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/New Shader Graph.shadergraph
+  artifactKey: Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/New Shader Graph.shadergraph using Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e772b41596ea9bd202e4b443a517156d') in 0.008314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.828585 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader
+  artifactKey: Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shader using Guid(21d258c09798e444a9a04481458ecf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a984e72ec3ea50b4ebaee37bd5a525ab') in 0.001593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.271515 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Shader Graphs_New Shader Graph.mat
+  artifactKey: Guid(824b7ecb0e2bfe241b2697f1c03a8fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Shader Graphs_New Shader Graph.mat using Guid(824b7ecb0e2bfe241b2697f1c03a8fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58e957aea4464a334a723c1f4a26fc9') in 0.007439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 556.232639 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/New Shader Graph.shadergraph
+  artifactKey: Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/New Shader Graph.shadergraph using Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd026318396853fbfe703bacd2c931625') in 0.003187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.397933 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/NewUnlitShader 1.shader
+  artifactKey: Guid(38f09efc326e0a24eb9334aa1e5cf3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/NewUnlitShader 1.shader using Guid(38f09efc326e0a24eb9334aa1e5cf3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627f11dcd33b1885375ed83a2ad79a03') in 0.006605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.655836 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/New Shader Graph.shadergraph
+  artifactKey: Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/New Shader Graph.shadergraph using Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442a1c00e94baf04ddd852dace968f6f') in 0.002414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 227.035828 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl.shader
+  artifactKey: Guid(676056c1bc270fd4a9239d987705a39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl.shader using Guid(676056c1bc270fd4a9239d987705a39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581c7855c88c328eb73c0c2d6ac7179b') in 0.006935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.260770 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e879c5772135eed57ba4bc2eda6b94b1') in 0.008810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.504811 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787ef9ff5e9540858d8968397033494a') in 0.002226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.682696 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b985707dcb065602863a7b8509ad15') in 0.001874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 452.243737 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shadergraph
+  artifactKey: Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shadergraph using Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24335aa98ec1f5b9d09baf422297e523') in 0.002600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.284303 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Shader Graphs_ImageToRaymarching3d.mat
+  artifactKey: Guid(23f66be5475e2d445b510a2f0191b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Shader Graphs_ImageToRaymarching3d.mat using Guid(23f66be5475e2d445b510a2f0191b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef81a472c2a4df3996e9bc10a04237a') in 0.006126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1337.038410 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5159fef759ceef3412a92892d41f6b4') in 0.030540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.120510 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534c0dfd4a4e2a26d70c4a9db6495d3c') in 0.005376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4257.061018 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4c227885428d0cb0faa4a467c1f7b2') in 0.006820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.138293 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Shader Graphs_ImageToRaymarching3d.mat
+  artifactKey: Guid(23f66be5475e2d445b510a2f0191b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Shader Graphs_ImageToRaymarching3d.mat using Guid(23f66be5475e2d445b510a2f0191b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653f6699a928506da6dfe3fcdd3a9023') in 0.012870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.365780 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1879690fb62e11666a936688334c0b') in 0.001532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.203423 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f854167623bc25ded556943105a0ee') in 0.001622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.290133 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f4ea33c2710c0216137a94ebe5b59f') in 0.001677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.116875 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bfc1ac087e8bf32410d8ea83a300a5') in 0.001700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.259374 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33adbd179ded58e96b7c7356d341d9e6') in 0.001529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.785332 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1722c2ef605b5ea388448f88004a217d') in 0.001876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.566997 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c5ae57fefecd6ad2644f74e7b50a19') in 0.001834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.800841 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c11148d0c39d6996cdbc5180105313f') in 0.001768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.873070 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d99a15818123bdb53875bca301c20f0') in 0.001815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.421240 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d662334d3b4a6b0f2fd51118f60ccd3') in 0.001614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 428.406159 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618eb5d437862a1a70be96b62a179f50') in 0.001963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.565357 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1a3a9f54feaafeb131141494861d54') in 0.001842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.706239 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220bb8d42956e948d9b5a4c60a739943') in 0.002835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.949613 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8052e4284235af813741b88f2fe732f3') in 0.001596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.449049 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22d413b1467d2ae55c012bb375897ad') in 0.034711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.891186 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cafac6d03d2a5e004a76ead63244d6') in 0.001916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.035555 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000489 seconds  code(4) message(Build asset version error: assets/imagetoraymarching3d/shaders/raymarching.hlsl in SourceAssetDB has modification time of '2023-09-23T00:00:03.8284794Z' while content on disk has modification time of '2023-09-23T00:00:06.1824787Z')
+  ERROR: Build asset version error: assets/imagetoraymarching3d/shaders/raymarching.hlsl in SourceAssetDB has modification time of '2023-09-23T00:00:03.8284794Z' while content on disk has modification time of '2023-09-23T00:00:06.1824787Z'
+========================================================================
+Received Import Request.
+  Time since last request: 29.048509 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee43c926dbed1306bbbd406c6e63c0a') in 0.001619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.868063 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160192e9834153e08e6d8d97298d249c') in 0.006060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.729527 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cd575c5f0fceb93ee45ef08bfce35b') in 0.013628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2237.471684 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd30dc9dfe41ce6a38fe78baef4f3b4') in 0.007301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.707223 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shadergraph
+  artifactKey: Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shadergraph using Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3ff198146a4579e5aec8c3e1c59876') in 0.003569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.780776 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c074a0d91650658d9b222c451af8ae') in 0.001817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.453004 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91566cb1ad9a9c0b9624934c1c2906b') in 0.001826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.970659 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a724fe8dbb0af72220ab72e72663b93') in 0.001759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.912359 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9df7ff045d328f7b78655edbc8d91b') in 0.001612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.950194 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dfabf82108abf976454bd76a951fe1') in 0.001623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.496291 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e00d7551bdec6b59ab77aca4417142') in 0.001656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.302434 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2c4bb5321857a6b7fa2f0caf09af0e') in 0.001635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.611848 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0ba3fb8b8fd7db464282200016d662') in 0.002398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.603257 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a951572b347668fc6c3ba693108e0f') in 0.002211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.397632 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Shader Graphs_ImageToRaymarching3d.mat
+  artifactKey: Guid(23f66be5475e2d445b510a2f0191b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Shader Graphs_ImageToRaymarching3d.mat using Guid(23f66be5475e2d445b510a2f0191b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cfffbce1d7a45768e3a667c28c252a') in 0.007205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.058164 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Shader Graphs_ImageToRaymarching3d.mat
+  artifactKey: Guid(23f66be5475e2d445b510a2f0191b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Shader Graphs_ImageToRaymarching3d.mat using Guid(23f66be5475e2d445b510a2f0191b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de675727992fc471c59f492ad1e4ef1') in 0.002625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.759295 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba432990227e4e1c4a4786f2d8c3a3a') in 0.001525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.133206 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5192bee6d275c00c575831dfecaac16') in 0.001421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.718952 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5485c2d6dd14d275b924ccd03c51088e') in 0.001800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.165812 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shadergraph
+  artifactKey: Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shadergraph using Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803818a2edb527802bd78fbd1efb7b77') in 0.006970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.230910 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shadergraph
+  artifactKey: Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shadergraph using Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406fb6c5e9066324c73f85ac46fe9945') in 0.002513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.342689 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9160224e14d2c3001fafff288b6ecca') in 0.001821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.138267 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27de9149d1fdb6ce84cffa5d4cf73712') in 0.001707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.899439 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06fa50b2d52f8b762a8a7387a7833c2') in 0.008400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.562335 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9bb2895f517e7ca360fabb386dc01d') in 0.001806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.183316 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d609d8510f6f2194902083d93c30ae') in 0.001606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.207858 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38d4fb89bffeb5aafa87bb426da0080') in 0.001781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.623193 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl
+  artifactKey: Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Raymarching.hlsl using Guid(8a7f1a057065aa246be768f38edc54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ffb58765fff79bfc6f0c2a1b09675d') in 0.001832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.465297 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/Shader Graphs_ImageToRaymarching3d.mat
+  artifactKey: Guid(23f66be5475e2d445b510a2f0191b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/Shader Graphs_ImageToRaymarching3d.mat using Guid(23f66be5475e2d445b510a2f0191b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486591f2a1a990b8b7e01c262ee3d064') in 0.002905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.751736 seconds.
+  path: Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shadergraph
+  artifactKey: Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToRaymarching3d/Shaders/ImageToRaymarching3d.shadergraph using Guid(7e1e3c95f85d6e8439db288dd962bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dbfd852e65a170e70d550585d86047') in 0.002421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1948.960956 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4759f63983f51a4914ba4c917d76203e') in 0.006321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.810441 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(aef882db157c54642bc197428a8b8702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(aef882db157c54642bc197428a8b8702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6dba8e4c4d321aa2cc8bd984205a6b') in 0.006064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.148268 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(6e2b8ee370b81f64b889ffec492b49a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(6e2b8ee370b81f64b889ffec492b49a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747d6886a131a6a06ae7ff11ba24f5c3') in 0.006291 seconds 
